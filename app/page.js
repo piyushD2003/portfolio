@@ -1,7 +1,7 @@
 'use client'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const FileProcessing = () => {
+export default function Home() {
   const skills = [
     {
       icon: '/path-to-your-nextjs-logo.svg',
@@ -260,5 +260,3 @@ const FileProcessing = () => {
     </>
   )
 }
-
-export default FileProcessing
