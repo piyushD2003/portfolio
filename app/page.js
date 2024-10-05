@@ -82,7 +82,7 @@ export default function Home() {
         <header className="w-full px-8 py-4 py-2 flex justify-between items-center">
           <h1 className="md:text-3xl text-xl font-bold text-blue-400">Developer X</h1>
           <nav>
-            <ul className="flex space-x-8 md:text-md md:px-28 md:font-bold md:text-lg text-sm">
+            <ul className="flex md:space-x-8 space-x-4 md:text-md md:px-28 md:font-bold md:text-lg text-sm">
               <li><a href="#home" className="hover:text-blue-400">Home</a></li>
               <li><a href="#contact" className="hover:text-blue-400">Contact</a></li>
               <li><a href="#project" className="hover:text-blue-400">Projects</a></li>
@@ -135,7 +135,7 @@ export default function Home() {
           </div>
         </main>
         <h1 id='project' className='text-4xl text-center p-5 font-semibold'>Projects</h1>
-        <section  className='grid grid-rows py-3 gap-1 justify-items-center'>
+        <section  className='grid grid-rows-5 py-3 gap-1 justify-items-center'>
           <div className="grid row-span-1 grid-cols-5 bg-black p-2 rounded-lg w-4/5 flex-shrink-0 flex items-center text-center" >
             <div className="grid col-span-1 text-4xl mb-1">
               <i className={`fa-solid fa-link text-blue-400`}></i>
@@ -150,8 +150,17 @@ export default function Home() {
               <i className={`fa-solid fa-link text-blue-400`}></i>
             </div>
             <div className='grid col-span-4 text-left gap-1'>
+              <h4 className="font-semibold text-lg md:text-xl">Fuel Prediction System</h4>
+              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/FuelConsumptionPrediction-DS-ML-">https://github.com-piyushD2003-FuelConsumptionPrediction-DS-ML</a>
+            </div>
+          </div>
+          <div className="grid row-span-1 grid-cols-5 bg-black p-2 rounded-lg w-4/5 flex-shrink-0 flex items-center text-center" >
+            <div className="grid col-span-1 text-4xl mb-1">
+              <i className={`fa-solid fa-link text-blue-400`}></i>
+            </div>
+            <div className='grid col-span-4 text-left gap-1'>
               <h4 className="font-semibold text-lg md:text-xl">CSK webiste</h4>
-              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/CSK-clone-website-by-php/">https://github.com/piyushD2003/CSK-clone-website-by-php/</a>
+              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/CSK-clone-website-by-php/">https://github.com-piyushD2003-CSK-clone-website-by-php</a>
             </div>
           </div>
           <div className="grid row-span-1 grid-cols-5 bg-black p-2 rounded-lg w-4/5 flex-shrink-0 flex items-center text-center" >
@@ -160,16 +169,7 @@ export default function Home() {
             </div>
             <div className='grid col-span-4 text-left gap-1'>
               <h4 className="font-semibold text-lg md:text-xl">inotebook</h4>
-              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/inotebook/">https://github.com/piyushD2003/inotebook</a>
-            </div>
-          </div>
-          <div className="grid row-span-1 grid-cols-5 bg-black p-2 rounded-lg w-4/5 flex-shrink-0 flex items-center text-center" >
-            <div className="grid col-span-1 text-4xl mb-1">
-              <i className={`fa-solid fa-link text-blue-400`}></i>
-            </div>
-            <div className='grid col-span-4 text-left gap-1'>
-              <h4 className="font-semibold text-lg md:text-xl">Fuel Prediction System</h4>
-              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/FuelConsumptionPrediction-DS-ML-">https://github.com/piyushD2003/FuelConsumptionPrediction-DS-ML-</a>
+              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/inotebook/">https://github.com-piyushD2003-inotebook</a>
             </div>
           </div>
           <div className="grid row-span-1 grid-cols-5 bg-black p-2 rounded-lg w-4/5 flex-shrink-0 flex items-center text-center" >
@@ -178,7 +178,7 @@ export default function Home() {
             </div>
             <div className='grid col-span-4 text-left gap-1'>
               <h4 className="font-semibold text-lg md:text-xl">Tkinter Application</h4>
-              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/TKinter-Projects">https://github.com/piyushD2003/TKinter-Projects</a>
+              <a className='hover:underline hover:text-blue-300' href="https://github.com/piyushD2003/TKinter-Projects">https://github.com-piyushD2003-TKinter-Projects</a>
             </div>
           </div>
         </section>
