@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <div className="min-h-screen pt-[1.70cm]">{children}</div>
+      <div className="min-h-screen">{children}</div>
       </body>
     </html>
   );

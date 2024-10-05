@@ -78,11 +78,11 @@ export default function Home() {
           <button type="submit" disabled={!(task.length>6)||!file} className={`md:grid md:col-span-1 md:w-22 md:h-10 w-16 h-8 md:text-[16px] text-sm grid justify-center px-4 py-2 font-semibold text-black bg-blue-200 rounded-lg shadow-md transition duration-300 ease-in-out`}>Submit</button>
         </div>
       </form> */}
-      <div className="bg-gray-900 min-h-screen items-center justify-center text-white">
-        <header className="w-full px-8 md:py-4 py-2 flex justify-between items-center">
+      <div className="bg-gray-900 items-center justify-center text-white">
+        <header className="w-full px-8 py-4 py-2 flex justify-between items-center">
           <h1 className="md:text-3xl text-xl font-bold text-blue-400">Developer X</h1>
           <nav>
-            <ul className="flex space-x-8 md:text-md text-sm">
+            <ul className="flex space-x-8 md:text-md md:px-28 md:font-bold md:text-lg text-sm">
               <li><a href="#home" className="hover:text-blue-400">Home</a></li>
               <li><a href="#contact" className="hover:text-blue-400">Contact</a></li>
               <li><a href="#project" className="hover:text-blue-400">Projects</a></li>
