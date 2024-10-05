@@ -247,10 +247,10 @@ export default function Home() {
             </div>
             <div className="grid row-span-1 place-content-center">
               <div className='grid-cols-1 place-content-end pt-7 md:pt-14 md:space-x-10 space-x-4'>
-                <a href="#" className="text-white md:text-2xl"><i className="fab fa-twitter"></i></a>
+                <a href="https://x.com/Up_to_Dowwn" className="text-white md:text-2xl"><i className="fab fa-twitter"></i></a>
                 <a href="#" className="text-white md:text-2xl"><i className="fab fa-instagram"></i></a>
-                <a href="#" className="text-white md:text-2xl"><i className="fab fa-linkedin"></i></a>
-                <a href="#" className="text-white md:text-2xl"><i className="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/piyush-dhyani-14271526b/" className="text-white md:text-2xl"><i className="fab fa-linkedin"></i></a>
+                <a href="https://github.com/piyushD2003/" className="text-white md:text-2xl"><i className="fab fa-github"></i></a>
               </div>
             </div>
             <div className="md:grid md:row-span-1 text-center md:text-lg text-gray-400">
