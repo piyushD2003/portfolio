@@ -1,5 +1,6 @@
 'use client'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Image from 'next/image';
 
 export default function Home() {
   const skills = [
@@ -94,7 +95,7 @@ export default function Home() {
           {/* Profile Section */}
           <div className="md:grid md:grid-cols-2 text-center px-2 pb-8 md:px-20">
             <div className='md:grid md:col-span-1 content-center'>
-              <h1 className="md:text-7xl text-4xl font-bold mt-4">Nice to meet you, I'm <p className="text-blue-400">Piyush Dhyani</p></h1>
+              <h1 className="md:text-7xl text-4xl font-bold mt-4">Nice to meet you, I&apos;m <p className="text-blue-400">Piyush Dhyani</p></h1>
               <p className="md:text-lg text-sm text-gray-400 mt-4">Aspiring web developer with a passion for creating user-friendly and efficient solutions. Eager to apply my skills and continuously learn to build innovative projects.</p>
               <p className="md:text-lg text-sm text-gray-400 mt-4">Computer Science Engineering Student (2025) <br /> Loknete Gopinathji Munde Institute of Engineering Education & Research</p>
 
@@ -111,7 +112,8 @@ export default function Home() {
               </div>
             </div>
             <div className='md:grid md:col-span-1 content-center md:pe-20'>
-              <img src="IMG_20240531_185537_063-Photoroom.png" alt="Profile" className="md:pt-8 pt-2 md:px-12 px-6 bg-gray-700 w-[318px] h-[319px] md:w-[448px] md:h-[458px] justify-center mx-auto rounded-full border-4 border-blue-600" />
+              <Image src="/IMG_20240531_185537_063-Photoroom.png" alt="Profile" className="md:pt-8 pt-2 md:px-12 px-6 bg-gray-700 w-[318px] h-[319px] md:w-[448px] md:h-[458px] justify-center mx-auto rounded-full border-4 border-blue-600" width={318} height={319}/>
+              {/* <img src="IMG_20240531_185537_063-Photoroom.png" alt="Profile" className="md:pt-8 pt-2 md:px-12 px-6 bg-gray-700 w-[318px] h-[319px] md:w-[448px] md:h-[458px] justify-center mx-auto rounded-full border-4 border-blue-600" /> */}
             </div>
           </div>
 
@@ -121,7 +123,7 @@ export default function Home() {
               <div key={index} className="grid col-span-1 bg-gray-800 p-6 rounded-lg md:w-96 flex-shrink-0 text-center" >
                 <div className="md:text-4xl text-xl mb-4">
                   {skill.icon.startsWith('https') || skill.icon.startsWith('/path') ? (
-                    <img src={skill.icon} alt={skill.title} className="md:w-15 md:h-9 h-6 w-15 mx-auto text-blue-400" />
+                    <Image src={skill.icon} alt={skill.title} className="md:w-15 md:h-9 h-6 w-15 mx-auto text-blue-400" width={60} height={35}/>
                   ) : (
                     <i className={`${skill.icon} text-blue-400`}></i>
                   )}
@@ -232,7 +234,7 @@ export default function Home() {
             {/* Profile Section */}
             <div className="grid row-span-1 md:grid-cols-5 flex items-center md:pb-16">
               <div className='md:grid md:col-span-1 justify-items-end pe-3 md:text-right'>
-                <img src="IMG_20240531_185537_063-Photoroom.png" alt="Your Name" className="justify-center pt-2 px-2 bg-gray-700 w-[110px] h-[114px] md:w-[134px] md:h-[140px] rounded-full border-2 border-blue-600" />
+              <Image src="/IMG_20240531_185537_063-Photoroom.png" alt="Your Name" className="justify-center pt-2 px-2 bg-gray-700 w-[110px] h-[114px] md:w-[134px] md:h-[140px] rounded-full border-2 border-blue-600" height={114} width={110} />
               </div>
               <div className='grid col-span-1 py-2'>
                 <h2 className="md:text-4xl text-xl font-semibold">Piyush Dhyani</h2>
